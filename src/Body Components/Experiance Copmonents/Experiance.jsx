@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/joy";
+import { Box, Grid, Sheet, Typography } from "@mui/joy";
 import React from "react";
 
 export default function Experiance() {
@@ -15,13 +15,15 @@ export default function Experiance() {
     >
       <Box
         sx={{
-          backgroundColor: "#fcbf49",
-          px: 3,
-          py: 0.5,
+          backgroundColor: "white",
           transform: "translateY(-18px)",
         }}
       >
-        <Typography level="h6"> . EXPERIANCE . </Typography>
+        <Sheet
+          sx={{ backgroundColor: "rgba(255, 214, 186, 0.5)", px: 3, py: 0.5 }}
+        >
+          <Typography level="h6"> . EXPERIANCE . </Typography>
+        </Sheet>
       </Box>
     </Grid>
   );

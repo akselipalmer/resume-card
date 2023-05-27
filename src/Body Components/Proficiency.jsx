@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from "@mui/joy";
+import { Box, Grid, Sheet, Typography } from "@mui/joy";
 import React from "react";
 
 export default function Proficiency() {
@@ -11,19 +11,22 @@ export default function Proficiency() {
         display: "flex",
         justifyContent: "center",
       }}
+      mt={3}
       md={12}
       pb={1}
       mx={13}
     >
       <Box
         sx={{
-          backgroundColor: "#fcbf49",
-          px: 3,
-          py: 0.5,
+          backgroundColor: "white",
           transform: "translateY(-18px)",
         }}
       >
-        <Typography level="h6"> . PROFICIENCY . </Typography>
+        <Sheet
+          sx={{ backgroundColor: "rgba(255, 214, 186, 0.5)", px: 3, py: 0.5 }}
+        >
+          <Typography level="h6"> . PROFICIENCY . </Typography>
+        </Sheet>
       </Box>
     </Grid>
   );

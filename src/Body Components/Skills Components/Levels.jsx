@@ -3,9 +3,9 @@ import React from "react";
 
 export default function Levels() {
   const levels = [
-    { name: "Material UI", value: 85 },
-    { name: "Google Firebase", value: 90 },
-    { name: "React", value: 95 },
+    { name: "MATERIAL UI", value: 85 },
+    { name: "GOOGLE FIREBASE", value: 90 },
+    { name: "REACT", value: 95 },
     { name: "JAVASCRIPT", value: 95 },
   ];
 
@@ -25,7 +25,7 @@ export default function Levels() {
       >
         {" "}
         {levels.map(({ name, value }, index) => (
-          <>
+          <Box width="100%" textAlign="center" key={index}>
             <Typography level="body2" mt={index === 0 ? 0 : 1}>
               {name}
             </Typography>
@@ -38,7 +38,7 @@ export default function Levels() {
                 }}
               ></Box>
             </Box>
-          </>
+          </Box>
         ))}
       </Box>
     </Grid>
