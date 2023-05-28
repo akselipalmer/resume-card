@@ -11,11 +11,12 @@ export default function Header() {
       px={2}
       sx={{ backgroundColor: "rgba(190, 227, 219, 0.8)" }}
     >
-      <Grid md={12} wrap="wrap" px={18} pt={10}>
+      <Grid xs={12} sm={10} md={8} wrap="wrap" pt={10}>
         <Sheet sx={{ p: 2 }}>
           <Sheet
             sx={{
-              py: 4,
+              py: 3,
+              px: 2,
               display: "flex",
               flexDirection: "column",
               justifyContent: "center",
@@ -26,25 +27,25 @@ export default function Header() {
             <Typography level="h2">Hello. I'm Akseli Palmer</Typography>
             <Grid
               container
+              mt={0.5}
               width="100%"
               display="flex"
               alignItems="center"
               justifyContent={"center"}
-              px={2}
             >
               <Grid
-                md={3}
+                xs={0}
+                sm={3}
                 height={2}
-                mr={3}
                 sx={{ backgroundColor: "black" }}
               ></Grid>
-              <Grid md={4} display="flex" justifyContent="center">
+              <Grid xs={12} sm={5.5} md={5} textAlign="center">
                 <Typography level="h6">Full Stack Developer</Typography>
               </Grid>
               <Grid
-                md={3}
+                xs={0}
+                sm={3}
                 height={2}
-                ml={3}
                 sx={{ backgroundColor: "black" }}
               ></Grid>
             </Grid>
