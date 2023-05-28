@@ -51,7 +51,7 @@ export default function Header() {
           </Sheet>
         </Sheet>
       </Grid>
-      <Grid md={12} sx={{ display: "flex" }} py={4} px={3}>
+      <Grid container width="100%" my={2}>
         <Contact name="EMAIL" value="constox@gmail.com" />
         <Contact name="GITHUB" value="https://github.com/akselipalmer" />
         <Contact

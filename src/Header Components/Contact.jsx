@@ -3,10 +3,7 @@ import React from "react";
 
 export default function Contact({ name, value }) {
   return (
-    <Grid
-      md={3}
-      sx={{ display: "flex", flexDirection: "column", alignItems: "center" }}
-    >
+    <Grid xs={6} sm={3} mb={1} display="flex" justifyContent="center">
       <Link
         level="h6"
         href={value}
