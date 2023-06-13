@@ -1,9 +1,9 @@
 import { Box, Grid, Typography } from "@mui/joy";
 import React from "react";
 
-export default function Educations() {
+export default function Educations({ smallScreen }) {
   return (
-    <Grid md={4}>
+    <Grid xs={12} md={4}>
       <Box
         sx={{ border: 2 }}
         display="flex"

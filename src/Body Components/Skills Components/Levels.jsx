@@ -1,7 +1,8 @@
 import { Box, Grid, Typography } from "@mui/joy";
 import React from "react";
+import Proficiency from "../Proficiency";
 
-export default function Levels() {
+export default function Levels({ smallScreen }) {
   const levels = [
     { name: "MATERIAL UI", value: 85 },
     { name: "GOOGLE FIREBASE", value: 90 },
@@ -10,16 +11,16 @@ export default function Levels() {
   ];
 
   return (
-    <Grid md={4}>
+    <Grid xs={12} md={4}>
       <Box
         sx={{
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
-          borderLeft: 2,
-          borderRight: 2,
+          borderLeft: smallScreen ? 2 : 0,
+          borderRight: smallScreen ? 2 : 0,
           mx: 2,
-          mt: 3,
+          mt: smallScreen ? 3 : 0,
           px: 4,
         }}
       >

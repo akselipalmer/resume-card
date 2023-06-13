@@ -1,14 +1,15 @@
 import { Box, Grid, Stack, Typography } from "@mui/joy";
 import React from "react";
 
-export default function Expertise() {
+export default function Expertise({ smallScreen }) {
   return (
-    <Grid md={4}>
+    <Grid md={4} xs={12}>
       <Box
         sx={{ border: 2 }}
         display="flex"
         alignItems="center"
         justifyContent="center"
+        mt={smallScreen ? 0 : 4}
       >
         <Typography level="h5"> . EXPERTISE . </Typography>
       </Box>
