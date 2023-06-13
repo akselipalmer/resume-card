@@ -13,7 +13,9 @@ I built this page using React and Joy UI
       <Box
         display="flex"
         alignItems="center"
+        justifyContent="center"
         position="absolute"
+        flexWrap="wrap"
         top={5}
         left="50%"
         py={0.1}
