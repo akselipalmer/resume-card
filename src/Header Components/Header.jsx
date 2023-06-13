@@ -2,6 +2,7 @@ import { Box, Grid, Sheet, Typography } from "@mui/joy";
 import React from "react";
 import Contact from "./Contact";
 import Mailto from "./Mailto";
+import InspiredBy from "../InspiredBy";
 
 export default function Header() {
   return (
@@ -13,6 +14,7 @@ export default function Header() {
       sx={{ backgroundColor: "rgba(190, 227, 219, 0.8)" }}
     >
       <Grid xs={12} sm={10} md={8} wrap="wrap" pt={10}>
+        <InspiredBy />
         <Sheet sx={{ p: 2 }}>
           <Sheet
             sx={{
