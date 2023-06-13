@@ -18,10 +18,10 @@ export default function Jobs() {
       ></Box>
       <Box sx={{ borderRight: 2, pb: 10 }}>
         <Typography level="body2" fontWeight={700}>
-          JOB POSITION HERE
+          FULL STACK WEB DEVELOPER
         </Typography>
-        <Typography level="body3">location of the job</Typography>
-        <Typography level="body3">2020 - 2022</Typography>
+        <Typography level="body3">Remote</Typography>
+        <Typography level="body3">2023 - Current</Typography>
       </Box>
       <Box
         sx={{
@@ -35,12 +35,12 @@ export default function Jobs() {
           transform: "translateX(-6px)",
         }}
       ></Box>
-      <Box sx={{ borderRight: 2 }}>
+      <Box sx={{ borderRight: 2, minHeight: 120 }}>
         <Typography level="body2" fontWeight={700}>
-          JOB POSITION HERE
+          SERVER, BUSSER, EXPEDITER
         </Typography>
-        <Typography level="body3">location of the job</Typography>
-        <Typography level="body3">2020 - 2022</Typography>
+        <Typography level="body3">Goochland, VA</Typography>
+        <Typography level="body3">2021 - 2023</Typography>
       </Box>
     </Grid>
   );

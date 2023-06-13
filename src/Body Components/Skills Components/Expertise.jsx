@@ -14,12 +14,12 @@ export default function Expertise({ smallScreen }) {
         <Typography level="h5"> . EXPERTISE . </Typography>
       </Box>
       <Stack alignItems="center" mt={2}>
-        <Typography level="body3">YOUR SKILLS HERE</Typography>
-        <Typography level="body3">ABOUT YOUR SKILLS HERE</Typography>
-        <Typography level="body3">YOUR SKILLS HERE</Typography>
-        <Typography level="body3">ABOUT YOUR SKILLS HERE</Typography>
-        <Typography level="body3">YOUR SKILLS HERE</Typography>
-        <Typography level="body3">ABOUT YOUR SKILLS HERE</Typography>
+        <Typography level="body3">JAVASCRIPT</Typography>
+        <Typography level="body3">USER INTERFACE DESIGN</Typography>
+        <Typography level="body3">REACT.JS</Typography>
+        <Typography level="body3">GOOGLE CLOUD PLATFORM</Typography>
+        <Typography level="body3">MATERIAL UI</Typography>
+        <Typography level="body3">FULL STACK WEB DEVELOPMENT</Typography>
       </Stack>
     </Grid>
   );

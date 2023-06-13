@@ -1,6 +1,7 @@
 import { Box, Grid, Sheet, Typography } from "@mui/joy";
 import React from "react";
 import Contact from "./Contact";
+import Mailto from "./Mailto";
 
 export default function Header() {
   return (
@@ -53,7 +54,7 @@ export default function Header() {
         </Sheet>
       </Grid>
       <Grid container width="100%" my={2}>
-        <Contact name="EMAIL" value="constox@gmail.com" />
+        <Mailto />
         <Contact name="GITHUB" value="https://github.com/akselipalmer" />
         <Contact
           name="LINKEDIN"

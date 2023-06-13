@@ -7,13 +7,13 @@ export default function JobDiscriptions({ smallScreen }) {
       {!smallScreen && (
         <>
           <Typography level="body2" fontWeight={700} textAlign="center">
-            JOB POSITION HERE
+            FULL STACK WEB DEVELOPER
           </Typography>
           <Typography level="body3" textAlign="center">
-            location of the job
+            Remote
           </Typography>
           <Typography level="body3" textAlign="center" sx={{ mb: 1 }}>
-            2020 - 2022
+            2023 - Current
           </Typography>
         </>
       )}
@@ -26,21 +26,22 @@ export default function JobDiscriptions({ smallScreen }) {
       {!smallScreen && (
         <>
           <Typography level="body2" fontWeight={700} textAlign="center">
-            JOB POSITION HERE
+            SERVER, BUSSER, EXPEDITER
           </Typography>
           <Typography level="body3" textAlign="center">
-            location of the job
+            Goochland, VA
           </Typography>
           <Typography level="body3" textAlign="center" sx={{ mb: 1 }}>
-            2020 - 2022
+            2021 - 2023
           </Typography>
         </>
       )}
       <Typography level="body2" lineHeight={1.7}>
-        Additionally, I am utilizing Firebase, Google Cloud, Git, APIs, and web
-        architectures to ensure all components of the system work together
-        seamlessly. My ability to communicate and learn complex systems in
-        simple terms has allowed me to ensure the project is successful.
+        I had the privilege to create positive relationships with our regulars
+        and promote a high level of service, leading to an increase in referrals
+        and walk-in business. I demonstrated adeptness in communication, and my
+        experience in this role has further strengthened my capabilities in
+        communication, teamwork, and customer satisfaction.
       </Typography>
     </Grid>
   );
