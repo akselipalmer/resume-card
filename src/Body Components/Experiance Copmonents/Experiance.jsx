@@ -22,7 +22,7 @@ export default function Experiance() {
         <Sheet
           sx={{ backgroundColor: "rgba(255, 214, 186, 0.5)", px: 3, py: 0.5 }}
         >
-          <Typography level="h6"> . EXPERIANCE . </Typography>
+          <Typography level="h6"> . EXPERIENCE . </Typography>
         </Sheet>
       </Box>
     </Grid>
