@@ -11,8 +11,10 @@ export default function Contact({ name, value }) {
         target="_blank"
         rel="noopener"
         sx={{
+          fontSize: 18,
+          fontWeight: 500,
           borderRadius: 0,
-          color: "black",
+          color: "#09090D",
           ":hover": { color: "white" },
         }}
       >

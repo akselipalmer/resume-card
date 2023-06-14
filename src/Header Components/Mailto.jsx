@@ -29,7 +29,9 @@ export default function Mailto() {
           sx={{
             borderRadius: 0,
             color: "#09090D",
+            fontWeight: 500,
             ":hover": { color: "white" },
+            fontSize: 18,
           }}
         >
           . EMAIL .
