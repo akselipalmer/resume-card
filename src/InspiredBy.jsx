@@ -26,7 +26,7 @@ I built this page using React and Joy UI
       >
         <Typography>Inspired By</Typography>
         <Button
-          sx={{ color: "black" }}
+          sx={{ color: "#09090D" }}
           variant="text"
           component={Link}
           href="https://dribbble.com/shots/21147961-Minimal-Resume-Template?utm_source=Clipboard_Shot&utm_campaign=Resume-CV&utm_content=Minimal%20Resume%20Template&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=Resume-CV&utm_content=Minimal%20Resume%20Template&utm_medium=Social_Share"

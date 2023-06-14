@@ -28,7 +28,7 @@ export default function Mailto() {
           variant="text"
           sx={{
             borderRadius: 0,
-            color: "black",
+            color: "#09090D",
             ":hover": { color: "white" },
           }}
         >
